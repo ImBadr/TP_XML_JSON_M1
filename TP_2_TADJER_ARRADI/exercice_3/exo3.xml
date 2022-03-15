@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<expressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="exo3.xsd">
+    <apply >
+        <plus/>
+        <cn>2</cn>
+        <cn>3</cn>
+    </apply>
+
+    <apply >
+        <times/>
+        <apply>
+            <plus/>
+            <cn>2</cn>
+            <cn>3</cn>
+        </apply>
+        <cn>4</cn>
+    </apply>
+
+    <apply >
+        <times/>
+        <apply>
+            <plus/>
+            <cn>2</cn>
+            <cn>3</cn>
+        </apply>
+        <cn>4</cn>
+    </apply>
+</expressions>

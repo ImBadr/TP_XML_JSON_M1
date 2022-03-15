@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<contacts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="carnet.xsd">
+    <contact>
+        <type>Personne</type>
+        <lastname>MOINEAU</lastname>
+        <firstname>Philippe</firstname>
+        <phone>+33699544532</phone>
+        <address>
+            <street>Avenue des écoles</street>
+            <number>31bis</number>
+            <city>Villepinte</city>
+            <zip>93420</zip>
+            <country>France</country>
+        </address>
+    </contact>
+
+    <contact>
+        <lastname>Credit Agricole</lastname>
+        <type>Banque</type>
+        <phone>0155545554</phone>
+        <address>
+            <street>Place de l'Hôtel-de-Ville</street>
+            <number>8</number>
+            <city>Garges-lès-Gonesse</city>
+            <zip>95141 Cedex</zip>
+            <country>France</country>
+        </address>
+    </contact>
+
+    <contact>
+        <type>Plombier</type>
+        <lastname>RIVIERE</lastname>
+        <firstname>Jean</firstname>
+        <phone>0666995412</phone>
+        <address>
+            <street>Avenue du Versaille</street>
+            <number>143</number>
+            <city>Paris</city>
+            <zip>75016</zip>
+            <country>France</country>
+        </address>
+    </contact>
+</contacts>

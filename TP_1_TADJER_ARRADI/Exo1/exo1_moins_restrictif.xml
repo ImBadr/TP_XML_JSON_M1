@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE liste_film [
+    <!ELEMENT liste_film (film+)>
+    <!ELEMENT film (titre|duree|genre+|realisateur+|acteurs|annee|langue|description|liste_horaire|note_presse|note_spectateur)*>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT duree (#PCDATA)>
+    <!ELEMENT genre (#PCDATA)>
+    <!ELEMENT realisateur (#PCDATA)>
+    <!ELEMENT acteurs (acteur+)>
+    <!ELEMENT acteur (#PCDATA)>
+    <!ELEMENT annee (#PCDATA)>
+    <!ELEMENT langue (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT liste_horaire (horaire+)>
+    <!ELEMENT horaire (#PCDATA)>
+    <!ELEMENT note_presse (#PCDATA)>
+    <!ELEMENT note_spectateur (#PCDATA)>
+]>
+
+<liste_film>
+    <film>
+        <titre>Les Brigades du Tigre</titre>
+        <duree>2h5min</duree>
+        <genre>Policier</genre>
+        <realisateur>Jérôme Cornuau</realisateur>
+        <acteurs>
+            <acteur>C. Cornillac</acteur>
+            <acteur>D. Kruger</acteur>
+            <acteur>E. Baer</acteur>
+        </acteurs>
+        <annee>2005</annee>
+        <langue>VF (en Français)</langue>
+        <description>Les aventures du commissaire Valentin et des inspecteurs Terrasson et
+            Pujol, membres des Brigades mobiles, corps spécial de la police française
+            créé avant la Première Guerre mondiale.</description>
+            <liste_horaire>
+                <horaire>Mer, Sam : 14:00 | 16:40 | 19:40 | 22:10</horaire>
+                <horaire>Jeu, Ven, Lun, Mar : 14:00 | 19:40 | 22:10</horaire>
+                <horaire>Dim : 10:20 | 14:00 | 16:40 | 20:20</horaire>
+            </liste_horaire>
+    </film>
+
+    <film>
+        <titre>Joker</titre>
+        <duree>2h2min</duree>
+        <genre>Thriller psychologique</genre>
+        <realisateur>Todd Phillips</realisateur>
+        <acteurs>
+            <acteur>Joaquin Phoenix</acteur>
+            <acteur>Robert De Niro</acteur>
+            <acteur>Zazie Beetz</acteur>
+            <acteur>Frances Conroy</acteur>
+        </acteurs>
+        <annee>2019</annee>
+        <langue>VOSTFR (VO sous-titré en Français)</langue>
+        <description>Méprisé par la société, Fleck s'enfonce peu à peu dans la démence 
+            et devient le génie criminel connu sous le nom de Joker, 
+            un dangereux tueur psychotique.
+        </description>
+        <liste_horaire>
+            <horaire>Lun, Mar : 20:00 | 23:00</horaire>
+            <horaire>Dim : 18:20 | 22:00</horaire>
+        </liste_horaire>
+    </film>
+
+    <film>
+        <titre>Tenet</titre>
+        <duree>2h30min</duree>
+        <genre>Science-fiction</genre>
+        <realisateur>Christopher Nolan</realisateur>
+        <acteurs>
+            <acteur>John David Washington</acteur>
+            <acteur>Robert Pattinson</acteur>
+            <acteur>Elizabeth Debicki</acteur>
+            <acteur>Kenneth Branagh</acteur>
+        </acteurs>
+        <annee>2020</annee>
+        <langue>VOSTFR (VO sous-titré en Français)</langue>
+        <description>Muni d'un seul mot, "Tenet," et décidé à se battre pour sauver le monde, 
+            un homme sillonne l'univers crépusculaire de l'espionnage international.
+            Sa mission le projettera dans une dimension qui dépasse le temps. 
+            Pourtant, il ne s'agit pas d'un voyage dans le temps, mais d'un renversement temporel.
+        </description>
+        <liste_horaire>
+            <horaire>Sam, Mar : 18:00 | 23:00</horaire>
+        </liste_horaire>
+    </film>
+</liste_film>

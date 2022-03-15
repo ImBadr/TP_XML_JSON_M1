@@ -1,0 +1,56 @@
+*{
+    font-family: "Times New Roman";
+    font-size: 12px;
+    padding: 2px 30px;
+}
+
+liste_film {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+    width: 100%;
+}
+
+film{
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+titre{
+    border-top: solid;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+realisateur{
+    color: red;
+}
+
+annee{
+    color: red;
+}
+
+acteur{
+    color: blue;
+    font-style: italic;
+    display : block;
+    text-decoration: underline;
+}
+
+titre, duree, genre, realisateur, acteurs, annee, langue, description, liste_horaire{
+    display : block;
+}
+
+horaire{
+    display : block;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+description{
+    width: 70%;
+    text-shadow: 2px 2px 2px #CE5937;
+}
