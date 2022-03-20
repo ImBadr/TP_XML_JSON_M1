@@ -18,9 +18,9 @@ public class Main {
 	public static void main(String[] args) {
 		try {
 			System.out.println("Begin");
-			XMLParser parser  = new XMLParser();
+			XMLParser parser = new XMLParser();
 
-			String filename = "./src/exo1/gender.xml";
+			String filename = "./src/exo1/bib.xml";
 
 			parser.parse(filename);
 			System.out.println("End");

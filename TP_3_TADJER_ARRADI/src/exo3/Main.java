@@ -13,9 +13,20 @@ package exo3;/*
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
 
-public class Transf {
+public class Main {
 
 	public static void main(String[] args) {
+		try {
+			System.out.println("Begin");
+			XMLParser parser = new XMLParser();
 
+			String filename = "./src/exo3/gender.xml";
+
+			parser.parse(filename);
+			System.out.println("End");
+		}
+		catch (Exception e ){
+			e.printStackTrace();
+		}
 	}
 }
