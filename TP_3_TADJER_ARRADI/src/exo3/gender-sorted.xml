@@ -9,31 +9,40 @@
         <!ELEMENT daughters (woman)*>
         ]>
 <list>
-    <man name="Julien">
-        <sons> </sons>
-        <daughters>
-            <woman name="Sophie">
-                <sons></sons>
-                <daughters></daughters>
-            </woman>
-            <woman name="Ursule">
-                <sons></sons>
-                <daughters></daughters>
-            </woman>
-        </daughters>
-    </man>
-    <woman name="Marie">
-        <sons>
-            <man name="Joseph">
-                <sons></sons>
-                <daughters>
-                    <woman name="Marie">
-                        <sons></sons>
-                        <daughters></daughters>
-                    </woman>
-                </daughters>
-            </man>
-        </sons>
-        <daughters></daughters>
-    </woman>
+	<man name="Julien">
+		<sons>
+		</sons>
+		<daughters>
+	<woman name="Sophie">
+		<sons>
+		</sons>
+		<daughters>
+		</daughters>
+	</woman>
+	<woman name="Ursule">
+		<sons>
+		</sons>
+		<daughters>
+		</daughters>
+	</woman>
+		</daughters>
+	</man>
+	<woman name="Marie">
+		<sons>
+	<man name="Joseph">
+		<sons>
+		</sons>
+		<daughters>
+	<woman name="Marie">
+		<sons>
+		</sons>
+		<daughters>
+		</daughters>
+	</woman>
+		</daughters>
+	</man>
+		</sons>
+		<daughters>
+		</daughters>
+	</woman>
 </list>

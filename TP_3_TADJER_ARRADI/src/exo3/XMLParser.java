@@ -73,26 +73,6 @@ public class XMLParser {
         out.flush();
     }
 
-    public void buildXMLPerson(Person person) {
-        String gender = person.gender == Gender.M ? "man" : "woman";
-
-        out.println("<" + gender + " name=\"" + person.name + "\">");
-
-        out.println("<sons>");
-        for (Person children : person.children )
-            if (children.gender.equals(Gender.M))
-                buildXMLPerson(person);
-        out.println("</sons>");
-
-        out.println("<daughters>");
-        for (Person children : person.children )
-            if (children.gender.equals(Gender.F))
-                buildXMLPerson(person);
-        out.println("</daughters>");
-
-        out.println("</" + gender + ">");
-    }
-
     private Person createPerson(Element element) {
         String name = element.getElementsByTagName("name").item(0).getTextContent();
         Gender gender = element.getAttribute("gender").equals("M") ? Gender.M : Gender.F;
@@ -109,5 +89,25 @@ public class XMLParser {
                     children.add(createPerson((Element) person));
 
         return new Person(name, gender, children);
+    }
+
+    public void buildXMLPerson(Person person) {
+        String gender = person.gender == Gender.M ? "man" : "woman";
+
+        out.println("\t<" + gender + " name=\"" + person.name + "\">");
+
+        out.println("\t\t<sons>");
+        for (Person children : person.children )
+            if (children.gender.equals(Gender.M))
+                buildXMLPerson(children);
+        out.println("\t\t</sons>");
+
+        out.println("\t\t<daughters>");
+        for (Person children : person.children )
+            if (children.gender.equals(Gender.F))
+                buildXMLPerson(children);
+        out.println("\t\t</daughters>");
+
+        out.println("\t</" + gender + ">");
     }
 }
