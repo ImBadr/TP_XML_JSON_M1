@@ -1,0 +1,39 @@
+_______________________
+_____ TADJER Badr _____
+_______________________
+
+
+▪ Décrire les chemins JSON Path permettant de sélectionner les éléments suivants : 
+
+_____________________________________________
+1) Tous les membres de la structure JSON
+$
+
+_____________________________________________
+2) Les  auteurs de tous les  livres 
+$.store.book.*.author
+
+_____________________________________________
+3) Tous les  livres  
+$.store.book.*
+
+_____________________________________________
+4) Les prix de tous les livres  
+$.store.book.*.price
+
+_____________________________________________
+5) Le 1er  livre  
+$.store.book[0]
+
+_____________________________________________
+6) Les deux derniers livres  
+$.store.book[-2:]
+
+_____________________________________________
+7) Tous les livres avec le numéro isbn 
+$.store.book[?(@.isbn)]
+
+_____________________________________________
+8) Tous les livres plus chers que 10
+$.store.book[?(@.price > 10)]
+

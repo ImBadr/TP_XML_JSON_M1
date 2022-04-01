@@ -1,0 +1,19 @@
+{
+  "facID": "123456",
+  "total": 163.0,
+  "A213": {
+    "nom": "Canard en plastique",
+    "qt": 3,
+    "prix": 1.0
+  },
+  "P214": {
+    "nom": "Flamant rose en platre",
+    "qt": 1,
+    "prix": 10.0
+  },
+  "X215": {
+    "nom": "Ours en bois",
+    "qt": 1,
+    "prix": 150
+  }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "identifiant": "cd93f4fb-983d-4c97-b070-ea2bbe935b95",
+    "nom": "Nolana",
+    "prenom": "Vickars",
+    "dateNaissance": "09/09/2001",
+    "lieuNaissance": "Hegarsari",
+    "adresse": [
+      {
+        "numRue": "0569",
+        "nomRue": "Hoepker Alley",
+        "codePostal": "47530",
+        "ville": "Langxi"
+      }
+    ],
+    "email": "nvickars0@tumblr.com",
+    "coursSuivis": ["Français", "Mathematiques", "Sport", "Histoire"]
+  },
+  {
+    "identifiant": "e0d5be46-3114-4160-8c5d-4ee224fc710f",
+    "nom": "Tommy",
+    "prenom": "Geffe",
+    "dateNaissance": "21/02/1994",
+    "lieuNaissance": "Namie",
+    "adresse": [
+      {
+        "numRue": "0428",
+        "nomRue": "Oriole Parkway",
+        "codePostal": "49323",
+        "ville": "Negoslavci"
+      }
+    ],
+    "email": "tgeffe1@baidu.com",
+    "coursSuivis": ["Français", "Mathematiques", "Sport", "Histoire"]
+  },
+  {
+    "identifiant": "49f9c26e-f786-45d9-9c2f-cb20b320d45e",
+    "nom": "Giselle",
+    "prenom": "Grimsey",
+    "dateNaissance": "19/04/2003",
+    "lieuNaissance": "Baimiao",
+    "adresse": [
+      {
+        "numRue": "3",
+        "nomRue": "Redwing Park",
+        "codePostal": "93290",
+        "ville": "Golacir"
+      }
+    ],
+    "email": "ggrimsey2@baidu.com",
+    "coursSuivis": ["Français"]
+  },
+  {
+    "identifiant": "f6834454-db88-4af0-a288-8cbf10a674ad",
+    "nom": "Guido",
+    "prenom": "Ledington",
+    "dateNaissance": "21/10/2006",
+    "lieuNaissance": "Zhangjiachang",
+    "adresse": [
+      {
+        "numRue": "17",
+        "nomRue": "Bluestem Hill",
+        "codePostal": "51039",
+        "ville": "Zhongxin"
+      }
+    ],
+    "email": "gledington3@marriott.com",
+    "coursSuivis": ["Français", "Mathematiques"]
+  }
+]

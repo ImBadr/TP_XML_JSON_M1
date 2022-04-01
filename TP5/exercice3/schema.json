@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "facID": {
+      "type": "string"
+    },
+    "total": {
+      "type": "number"
+    }
+  },
+  "patternProperties": {
+    "^[A-Z][0-9]{3}$": {
+      "type": "object",
+      "properties": {
+        "nom": {
+          "type": "string"
+        },
+        "qt": {
+          "type": "number"
+        },
+        "prix": {
+          "type": "number"
+        }
+      },
+      "required": ["nom", "qt", "prix"]
+    }
+  },
+  "additionalProperties": false,
+  "required": ["facID", "total"]
+}
