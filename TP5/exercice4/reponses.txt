@@ -27,7 +27,7 @@ $.store.book[0]
 
 _____________________________________________
 6) Les deux derniers livres  
-$.store.book[-2:]
+$.store.book[-2:0]
 
 _____________________________________________
 7) Tous les livres avec le numéro isbn 
